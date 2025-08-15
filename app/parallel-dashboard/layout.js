@@ -4,13 +4,14 @@ export default function DashboardLayout({
   assignments,
   quizs,
 }) {
+  const isLoggedIn = true;
   return (
     <>
       {children}
       <div className="">
         {assignments}
         {quizs}
-        {notifications}
+        {isLoggedIn && notifications}
       </div>
     </>
   );
