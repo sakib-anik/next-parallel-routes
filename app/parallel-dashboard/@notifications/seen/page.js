@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default async function page() {
+export default function page() {
   return (
     <>
       <div className="" style={{ border: "2px solid green" }}>
